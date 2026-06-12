@@ -1441,7 +1441,7 @@ function shareMatchResult(idx) {
 // ════════════════════════════════════════
 
 (function init() {
-    const theme = localStorage.getItem('wc26-theme') || 'dark';
+    const theme = localStorage.getItem('wc26-theme') || 'light';
     applyTheme(theme);
     renderCountdown();
     setInterval(renderCountdown, 60_000);
